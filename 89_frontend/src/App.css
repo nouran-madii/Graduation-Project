@@ -1,0 +1,76 @@
+.Destination{
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assets/about-bg-free-img.b181dbb2b16e44fc0bc5.jpg);
+}
+@keyframes custom-bounce {
+    0%, 100% {
+      transform: translateY(-10px); /* تقليل ارتفاع القفز */
+    }
+    50% {
+      transform: translateY(0); /* العودة إلى الوضع الطبيعي */
+    }
+  }
+  
+  .custom-bounce {
+    animation: custom-bounce 3s infinite; /* تقليل السرعة */
+  }
+  @keyframes custom-bounce1 {
+    0%, 100% {
+      transform: translateX(-10px); /* تقليل ارتفاع القفز */
+    }
+    50% {
+      transform: translateX(0); /* العودة إلى الوضع الطبيعي */
+    }
+  }
+  
+  .custom-bounce1 {
+    animation: custom-bounce1 3s infinite; /* تقليل السرعة */
+  }
+  @keyframes slow-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .slow-spin {
+    animation: slow-spin 12s linear infinite;
+  }
+  .bgLogin{
+    background-image: url(./assets//login.jpg);
+    background-position:  center ;
+    padding-top: 20px;
+    object-fit: contain;
+
+  }
+  .bgContactUs{
+    background-image: url(./assets//cc.webp);
+  }  .bgHistory{
+    background-image:  url(./assets//hastory.jpg);
+    background-position:   center center ;
+    /* padding-top: 20px; */
+    /* object-fit: contain; */
+
+  }
+  .bghome{
+    background-image: url(./assets//home1.jpg);
+    background-position:  center bottom ;
+    padding-top: 20px;
+    object-fit: contain;
+  }
+  .bgCAbout{
+    background-image: url(./assets//ss.jpg);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* For Internet Explorer */
+    scrollbar-width: none;  /* For Firefox */
+  }
+  
